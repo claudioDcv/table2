@@ -25,13 +25,19 @@ html {
 
 .ui-kit-table th,
 .ui-kit-table th * {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 200;
   color: #757575;
+  margin: 0;
+  padding: 0;
 }
 
 .ui-kit-table th > button {
   color: #757575;
+  padding: 1.5rem;
+  margin: 0;
+  width: 100%;
+  outline: none;
 }
 
 .ui-kit-table th button {

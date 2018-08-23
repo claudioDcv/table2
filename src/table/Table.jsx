@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { compareMake, dotNot } from "./TableUtils";
+import { CLASS_NAME } from './const.js';
+import Th from './components/Th';
 
-const CLASS_NAME = {
-	TABLE: 'ui-kit-table',
-	ACTIVE: 'ui-kit-table__th-active',
-	SORT_DOWN: 'ui-kit-table__th-sort-up',
-	SORT_UP: 'ui-kit-table__th-sort-down',
-};
 
 class Table extends Component {
 	constructor(props) {
@@ -113,19 +109,13 @@ class Table extends Component {
 					<thead>
 						<tr>
 						{configCol.map((e, i) => (
-							<th
-								key={i}
-								className={
-									e.accessor === sortBy ? CLASS_NAME.ACTIVE + ' ' + (reverse ? CLASS_NAME.SORT_UP : CLASS_NAME.SORT_DOWN): ''}
-							>
-								{e.accessor ? (<button
-									onClick={() => this.onSort(e.accessor, e.isNumeric)}
-								>
-									{e.headerProps.title + (e.accessor !== sortBy ? '<>' : '')}
-									{e.accessor === sortBy && (reverse ? '<-' : '->')}
-								</button>
-								) : e.headerProps.title}
-							</th>
+							<Th
+								index={i}
+								element={e}
+								onSort={this.onSort}
+								reverse={reverse}
+								sortBy={sortBy}
+							/>
 						))}
 						</tr>
 					</thead>

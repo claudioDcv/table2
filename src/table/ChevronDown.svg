@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="12px" viewBox="0 0 22 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-chevrondown-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Functional-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Function-icon---24px" transform="translate(-402.000000, -642.000000)">
+            <g id="icon-chevrondown-24px" transform="translate(401.000000, 635.000000)">
+                <polygon id="bounds" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) " points="0 0 24 0 24 24 0 24"></polygon>
+                <polyline id="Stroke-3-Copy-4" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.000000, 12.666667) scale(-1, -1) rotate(-270.000000) translate(-12.000000, -12.666667) " points="16.6666667 22 7.33333333 12.6666667 16.6666667 3.33333333"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
