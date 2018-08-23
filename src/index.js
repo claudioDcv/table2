@@ -38,9 +38,6 @@ class App extends React.Component {
 
   handlerOnRemove(element, index, data) {
     this.setState((prevState) => {
-      const ind = index;
-      const d = data;
-
       const l = prevState.data.filter((e, i) => {
         return i !== index;
       });

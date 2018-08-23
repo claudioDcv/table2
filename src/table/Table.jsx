@@ -121,8 +121,8 @@ class Table extends Component {
 								{e.accessor ? (<button
 									onClick={() => this.onSort(e.accessor, e.isNumeric)}
 								>
-									{e.headerProps.title}
-									{e.accessor === sortBy && (reverse ? '<' : '>')}
+									{e.headerProps.title + (e.accessor !== sortBy ? '<>' : '')}
+									{e.accessor === sortBy && (reverse ? '<-' : '->')}
 								</button>
 								) : e.headerProps.title}
 							</th>
