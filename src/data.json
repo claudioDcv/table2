@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "value": "Claudio",
+    "name": "Claudio",
     "extra": {
       "country": "Chile"
     }
   },
   {
     "id": 2,
-    "value": "Rosario",
+    "name": "Rosario",
     "extra": {
       "country": "Argentina"
     }
   },
   {
     "id": 3,
-    "value": "Pedro",
+    "name": "Pedro",
     "extra": {
       "country": "Peru"
     }
   },
   {
     "id": 4,
-    "value": "Marta",
+    "name": "Marta",
     "extra": {
       "country": "Brasil"
     }

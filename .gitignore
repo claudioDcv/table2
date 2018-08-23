@@ -1,0 +1,72 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# bms
+.gradle
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/.scannerwork
+
+# production
+/build
+/dist
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# errors
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# sonarqube
+.sonar
+
+# -- Editores -----------------------------------------
+
+# bower
+bower_install/
+
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# jetbrains
+.idea/
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+
+# visual studio code
+.vscode
+
+# -- Sistemas Operativos ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+!.gitignore
+!.htaccess
+!.editorconfig
+!.gitattributes
+
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes

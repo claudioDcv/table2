@@ -2,3 +2,51 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+html {
+  font-size: 10px;
+}
+
+.color-danger {
+  color: crimson;
+}
+
+/* TABLE */
+
+.ui-kit-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ui-kit-table th {
+  border-bottom: solid 0.1rem #333;
+}
+
+.ui-kit-table th,
+.ui-kit-table th * {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #757575;
+}
+
+.ui-kit-table th > button {
+  color: #757575;
+}
+
+.ui-kit-table th button {
+  background: none;
+  border: none;
+}
+
+.ui-kit-table th.ui-kit-table__th-active > button {
+  color: #333;
+}
+
+.ui-kit-table__th-sort-down {
+  color: #333;
+}
+
+.ui-kit-table__th-sort-up {
+  color: #333;
+}
